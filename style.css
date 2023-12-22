@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('LOGO\ 1.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-box {
+    background: #d8ad48;
+    text-align: center;
+    width: 23%; /* Adjusted width for better responsiveness */
+    max-width: 400px; /* Set a maximum width for larger screens */
+    padding: 4% 8%; /* Adjusted padding using percentages */
+    color: #1b0000;
+    position: relative;
+    border-radius: 50px;
+}
+
+.profile-pic {
+    width: 88%; /* Adjusted width for better responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50px;
+    background: rgb(4, 187, 156);
+    padding: 2px;
+}
+
+.profile-pic:hover {
+    transform: scale(1.02);
+}
+
+.insta, .fb, .link {
+    height: 5vw; /* Adjusted height using viewport width units */
+}
+
+.insta:hover, .fb:hover, .link:hover {
+    transform: scale(1.02);
+}
+
+.social-media {
+    cursor: pointer;
+}
